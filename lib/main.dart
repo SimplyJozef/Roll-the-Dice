@@ -31,7 +31,7 @@ class _MainAppState extends State<MainApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('$currentNumber'),
+              Image.asset('assets/images/dice-$currentNumber.png'),
               TextButton(
                 onPressed: regenerate,
                 child: const Text('Regeneruj'),
