@@ -34,6 +34,9 @@ class _MainAppState extends State<MainApp> {
               Image.asset('assets/images/dice-$currentNumber.png'),
               TextButton(
                 onPressed: regenerate,
+                style: TextButton.styleFrom(
+                  textStyle: const TextStyle(fontSize: 28),
+                ),
                 child: const Text('Regeneruj'),
               ),
             ],
